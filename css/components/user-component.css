@@ -7,6 +7,12 @@
     display:flex;
     align-items: center;
 }
+.user_component__column:last-child{
+    color:rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 .user_component__column--o {
     margin-top: 40px;
 }
@@ -21,6 +27,7 @@
     font-size: 22px;
 }
 .user-component__subtitle{
+    font-weight: 500;
     margin-top:8px;
     font-size:15px;
     color:rgba(0,0,0,0.5);
@@ -36,20 +43,10 @@
 .user_component__column--down{
     margin-top:12px;
 }
-.friends-screen__channel{
-    margin-top: 25px;
-    border-top:1px solid rgba(0,0,0,0.2);
-    color: rgba(0,0,0,0.65);
-    padding-top: 10px;
+.user_component__column--b{
+    display:block;
 }
-.friends-screen__channel-header{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top:5px;
-    margin-bottom: 25px;
-    color: rgba(0,0,0,0.5);
-}
-.friends-screen__channel-header--not-bold{
-    color: rgba(0,0,0,0.7);
+.user-component__time{
+    margin-bottom: 10px;
+    display:block;
 }
