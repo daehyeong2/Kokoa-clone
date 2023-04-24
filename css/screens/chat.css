@@ -8,6 +8,7 @@
     background-color: #abc1d1;
     position: fixed;
     width: 100%;
+    z-index: 10;
     box-sizing: border-box;
 }
 .main-chat{
