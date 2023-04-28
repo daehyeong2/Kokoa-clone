@@ -14,3 +14,23 @@
 .settings-setting-column:last-child{
     opacity: 0.7;
 }
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+.settings__setting{
+    opacity:0;
+    animation: fadeIn .6s ease-in-out forwards;
+}
+.settings__setting:nth-child(2){
+    animation-delay: 0.3s;
+}
+.settings__setting:last-child{
+    animation-delay: 0.6s;
+}
